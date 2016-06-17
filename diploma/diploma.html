@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diploma</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body class="diploma">
+
+	<div class="diploma">
+
+		<h1 class="Universidad">_%%universidad%%_</h1>
+		<p>Certify to all that</p>
+		<h2>_%%nombre%%_</h2>
+		<p>has been nominated</p>
+		<h1 class="Titulo">_%%titulo%%_</h1>
+		<br>
+		<p id="fecha"></p>
+		
+	</div>
+	
+	<script type="text/javascript">
+		var fecha = new Date();
+		document.getElementById("fecha").innerHTML = fecha.getFullYear();
+	</script>
+
+</body>
+</html>

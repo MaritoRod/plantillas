@@ -1,0 +1,67 @@
+@font-face {
+	font-family: Universidad;
+	src: url("../fonts/Kingthings-Calligraphica/Kingthings_Calligraphica_Light.ttf");
+}
+
+@font-face {
+	font-family: Nombre;
+	src: url("../fonts/alex-brush/AlexBrush-Regular.ttf");
+}
+
+@font-face {
+    font-family: Arsenal;
+    src: url("../fonts/Arsenal-Regular.otf");
+}
+
+//Generales
+body {
+    font-family: Arsenal;
+    font-size: large;
+    font-weight: lighter;
+}
+
+div.inicio h1 {
+    color: #cc480e;
+}
+
+div h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+img.img-circle {
+    margin: 0 auto;
+}
+
+
+//Diploma
+body.diploma {
+	background-color: #fff;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+div.diploma {
+	margin: 5%;
+	width: 920px;
+    height: 520px;
+	background-image: url("../diploma/FondoDiploma.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 5px double #566f9f;
+	text-align: center;
+}
+div h1.Universidad {
+	font-family: Universidad;
+	font-size: 40px;
+}
+
+div h1.Titulo {
+	font-family: Nombre;
+	font-size: 45px;
+}
+
+div h2 {
+	font-family: Nombre;
+	font-size: 50px;
+}
+
